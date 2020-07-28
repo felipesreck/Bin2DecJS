@@ -1,18 +1,42 @@
-.StyledForm {
+.BackgroundContainer {
+  text-align: left;
+  width: 25%;
+  font-size: 11px;
+  margin: 20px;
   border: 1px solid gray;
   border-radius: 5px;
   padding: 10px;
-  width: 50%;
-  background: radial-gradient(ellipse at center, #f2f9fe 0%, #d6f0fd 100%);
 }
 
-.Field {
-  display: flex;
-  flex-direction: column;
-}
-
-.Label {
-  margin: 10px;
+#Label {
   font-size: 18px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#TextInput {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #a3a3a3;
+  padding: 10px;
+  border-radius: 2px;
+  background: #e0f0f0;
+  outline: none;
+}
+
+#ConvertButton {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#Error {
+  color: red;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
 }
